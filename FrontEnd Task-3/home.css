@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('Content/background12.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Links{
+    padding: 5px 0px;
+    text-align: center !important;
+}
+.Links a{
+    text-decoration: none;
+}
+.Links .img1{
+    padding-right: 120px;
+}
+.MyNavBar{
+    background-color: rgb(212, 196, 196);
+    text-align: center;
+}
+.MyNavBar a{
+    text-decoration: none;
+    padding: 0px 25px;
+    border-right: 1px solid white;
+    color: black;
+}
+.MyNavBar ul li{
+    list-style: none;
+}
+hr{
+    padding: 0;
+    margin: 1;
+}
+.container{
+    max-width: 1100px;
+}
+.row1{
+    border: 5px solid white;
+    position: relative;
+    margin: 0px;
+}
+.row1 img{
+    width: 100%;
+}
+.row2{
+    border: 5px solid black;
+    background-color: white;
+}
+.row2 a{
+    text-decoration: none;
+    text-align: right;
+}
+.DressTable{
+    background-color: rgb(39, 36, 36);
+    color:white;
+    position: absolute;
+}
+.DressTable li{
+    margin: 10px;
+}
+.footer {
+    display: flex;
+    position: relative;
+    max-width: 1100px;
+    color: white !important;
+	justify-content: center;
+	padding: 0.3125em 0;
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+footer p {
+	color: white;
+	margin: 0;
+	font-size: 90%;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em;
+}
+.footer-links {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+.footer-links li a {
+	padding: 0 0.3125em;
+	color: white;
+	font-size: 90%;
+}
+.footer-links li:not(:last-child) a {
+	border-right: 1px solid white;
+}
+.left{
+    position: absolute;
+    align-content: left;
+}
+.right{
+    position: absolute;
+    right: 240px;
+}
+.offer-container
+{
+    height: 3em;
+    border-bottom: solid #999999 1px;
+    display: flex;
+}
+.offers {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 12em;
+}
+.bridal-registry {
+    display: flex;
+    margin-left: 15em;
+    color: #3f5bc9;
+}
+.offers li
+{
+  padding:0.625em;
+  color: #3f5bc9;
+}
+.offers li:not(:first-child)::before
+{
+    content: 'o';
+	padding-right: 1em;
+	color: #3f5bc9;
+}
